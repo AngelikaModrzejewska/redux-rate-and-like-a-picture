@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Used techniques
 
-* React and Redux library
+* React and Redux library, two reducer functions: one for rates and one for likes
 * React Hooks
 * Sass (npm package bem-css-modules)
 
