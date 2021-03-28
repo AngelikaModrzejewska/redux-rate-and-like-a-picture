@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.app {
+    box-sizing: border-box;
+    padding: 15px 0;
+    min-height: 100vh;
+
+    &__content {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 15px;
+        justify-content: space-around;
+        border-top: 5px dotted #b5838d;
+    }
+
+    &__h1 {
+        width: 70%;
+        margin: 20px auto;
+        text-align: center;
+        border-left: 7px dotted #6d6875;
+        border-right: 7px dotted #6d6875;
+        background-color: #f2e9e4;
+    }
+
+    &__comm-section {
+        padding-right: 50px;
+        border-right: 5px dotted #b5838d;
+    }
+
+}

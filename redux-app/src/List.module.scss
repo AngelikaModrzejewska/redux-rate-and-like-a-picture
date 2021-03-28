@@ -1,0 +1,29 @@
+.ul {
+    margin-top: 25px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+
+    &__p {
+        font-size: 20px;
+        color: #b5838d;
+    }
+
+    &__span {
+        color: #6d6875;
+    }
+
+    &__pclick {
+        color: #6d6875;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        outline: none;
+        text-decoration: underline;
+
+        &:hover {
+            color: #b5838d;
+        }
+    }
+}
